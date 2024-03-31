@@ -54,13 +54,13 @@ module.exports = function(api) {
         }
       ],
       [
-        '@babel/plugin-proposal-private-methods',
+        '@babel/plugin-prorosal-private-methods',
         {
           loose: true
         }
       ],
       [
-        '@babel/plugin-proposal-private-property-in-object',
+        '@babel/plugin-prorosal-private-property-in-object',
         {
           loose: true
         }

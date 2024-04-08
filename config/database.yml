@@ -50,6 +50,10 @@ test:
 #
 production:
   <<: *default
-  database: microposts_production
-  username: microposts
-  password: <%= ENV['MICROPOSTS_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: aws-0-ap-northeast-1.pooler.supabase.com
+  database: postgres
+  username: postgres.btvtbqhxpcgmnbziyaup
+  password: <%= ENV['SUPABASE_DATABASE_PASSWORD'] %>
